@@ -1,5 +1,5 @@
 # Estimating Probabilities from data
-A common modeling problem involves how to estimate a joint probability distribution for the sample of observation $(X)$, where each observation is independent and identically distributed, (i.i.d). Each model contains its own set of parameters $(\theta)$ that ultimately defines what the model looks like.
+A common modeling problem involves how to estimate a joint probability distribution for the sample of observation $(X)$, where each observation is independent and identically distributed, (i.i.d). Each model contains its own set of parameters $`(\theta)`$ that ultimately defines what the model looks like.
 
 Density estimation involves selecting a probability distribution function and the parameters of that distribution that best explain the joint probability distribution of the observed data $(X)$.
 the two common approaches for Density Estimation are
