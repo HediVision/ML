@@ -1,8 +1,3 @@
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
-
 # Estimating Probabilities from data
 A common modeling problem involves how to estimate a joint probability distribution for the sample of observation $(X)$, where each observation is independent and identically distributed, (i.i.d). Each model contains its own set of parameters $(\theta)$ that ultimately defines what the model looks like.
 
