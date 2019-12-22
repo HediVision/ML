@@ -1,3 +1,5 @@
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 # Estimating Probabilities from data
 A common modeling problem involves how to estimate a joint probability distribution for the sample of observation $(X)$, where each observation is independent and identically distributed, (i.i.d). Each model contains its own set of parameters $`(\theta)`$ that ultimately defines what the model looks like.
 
@@ -10,10 +12,11 @@ Both approch treat probability density estimation problem as an optimization pro
 ## 1. Maximum Likelihood Estimate (MLE)
 MLE attempt to maximize the probability of observing the data (X) from specific probability distribution and its parameters $(\theta)$: 
 
-$$
+\begin{equation}
 P(X ; \theta) \quad or \quad P(x_1, x_2, x_3, …, x_n ; \theta)
-\tag{1.1}
-$$
+
+\end{equation}
+
 Note that in this representation the semicolon is used, instead of bar, because theta is not a random variable, but instead an unknown parameter.
 <div style="background-color: #cfc ; padding: 10px; border: 5px solid green;">
 
